@@ -3,61 +3,78 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tarjeta de presentación</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
   </head>
   <body>
+    <!--Contenedor principal-->
+    <div class="container mt-5">
 
-    <div class="container mt-5 ">
-        <div class="card" style="width: 18rem; background-color: #146C94;">
+       <div class="row text-center">
+
+           <div class="col "></div>
+
+           <!--div con la clase card-->
+           <div class="card" style="width: 18rem; background-color: #146C94; border: 2px solid cyan;">
+
+             <!--divs para la zona donde se encuentra la imagen-->
             <div class="row">
-                <div class="col"></div>
-                <div class="col">
-                    <img src="./IMG/perfil.png" class="card-img-top" alt="Perfil" style="width: 150px; height: auto;">
-                </div>
-                <div class="col"></div>
-            </div>
-              <div class="card-body text-center">
-                <h5 class="card-title" style="color: white;">John Arbaiza</h5>
-                <span style="color: white;">Sistemas Informaticos</span><br>
-                <p class="card-text" style="color: white;">Sigueme en mis redes sociales <br>
-                 @john_arbaiza</p>
-                <button type="button" class="btn btn-primary" style="background-image: linear-gradient(#19A7CE,pink); border-radius:20px; border: 1px solid white;">Sigueme</button>
-             </div>
+               <div class="col"></div>
 
-             <div class="row alingn-self-center text-center">
-                <div class="col text-center">
-                   <center>
-                 <div class="circle" style="width: 50px; height: 50px; border-radius: 50%; background-image: linear-gradient(#57C5B6,#159895); border: 1px solid white;">
-                    <img src="./IMG/Camara.png" class="card-img-top" alt="camara" style="width: 50px; height: auto;">
-                </div>
-                    </center> 
-                    <span style="color: white;">98 <br> Seguidores</span>
-                </div>
-                <div class="col">
-                    <center>
-                     <div class="circle" style="width: 50px; height: 50px; border-radius: 50%; background-image: linear-gradient(#57C5B6,#159895); border: 1px solid white;">
-                        <img src="./IMG/like.png" class="card-img-top" alt="camara" style="width: 50px; height: auto;">
-                    </div>
-                    </center>
-                    <span style="color: white;">50 <br>like</span>
-                </div>
-                <div class="col">
-                    <center>
-                      <div class="circle" style="width: 50px; height: 50px; border-radius: 50%; background-image: linear-gradient(#57C5B6,#159895); border: 1px solid white;">
-                        <img src="./IMG/Compartir.png" class="card-img-top" alt="camara" style="width: 50px; height: auto;">
-                    </div>
-                    </center>
-                    <span style="color: white;">Compartir</span>
-                </div>
-             </div>
+               <!--Este div contendra la imagen a usar-->
+               <div class="col">
+               <img src="./IMG/Perfil.jpg" class="card-img-top" alt="Perfil" style="width: 150px; height: auto; border-radius: 50%; border: 2px solid aquamarine; margin-top: 8px;">
+               </div>
 
+               <div class="col"></div>
+            </div> <!--fin de la parte de la imagen-->
+
+            <!--Informacion -->
+            <div class="card-body text-center">
+              <span style="color: white; font-size: 24px;">John Arbaiza</span><br>
+               <span style="color: white;">Estudiante de Ingeniería de sistemas informáticos </span><br><br>
+               <p class="card-text" style="color: white;">Sigueme en mis redes sociales <br>@john_arbaiza</p>
+               <button type="button" class="btn btn-primary">Sigueme</button>
+                <p style="color: white;">-----------------------------------</p>
+            </div><!--fin de la informacion-->
+
+            <!--Parte donde se encuentran los perfiles-->
+            <div class="row alingn-self-center text-center">
+
+              <div class="col">
+                <center>
+                   <button class="circle"><a href="https://github.com/JohnArbaiza1"><i class="fa-brands fa-github"></i></a></button>    
+                   <span style="color: white; font-size: 18px;">GitHub</span>
+                </center>
+              </div>
+
+              <div class="col">
+                <center>
+                   <button class="circle"><i class="fa-brands fa-facebook"></i></button>
+                   <span style="color: white; font-size: 18px;">Facebook</span>
+              </div>
+
+              <div class="col">
+                <center>
+                    <button class="circle"><i class="fa-brands fa-instagram"></i></button>
+                    <span style="color: white; font-size: 18px;">Instagram</span>
+                </center>
+              </div>
+
+            </div><br><!--fin de los perfiles-->
              
-        </div>
-          
-        
+           </div> <!--fin del div de la clase card-->
+           
+           <div class="col"></div>
+
+       </div>
+
     </div>
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>

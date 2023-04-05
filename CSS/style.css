@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#19376D,#0B2447);
+    
+}
+
+.btn {
+    background: linear-gradient(#17b1db,pink);
+    border-radius:20px;
+    border: 1px solid white;
+    color: #071c3a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn:hover{
+    background: linear-gradient(#d8d515,rgb(209, 88, 18));
+    color: black;
+    border: 2px solid rgb(245, 158, 28);
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#19A7CE,pink);
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.fa-brands{
+    color: #071c3a;
+    font-size: 40px;
+    margin-top: 4px;
+    margin-bottom: 4px;    
+}
+
+.circle:hover{
+    background: linear-gradient(#d8d515,rgb(209, 88, 18));
+    border: 2px solid rgb(245, 158, 28);
+}
+
+.fa-brands:hover{
+  color: black;
+}
+
+
+
+
+
+
+
+ 
+
